@@ -2,6 +2,8 @@ class type properties =
 object
 	method getProperty : Js.js_string Js.t -> Js.js_string Js.t Js.opt Js.meth
 	method setProperty : Js.js_string Js.t -> Js.js_string Js.t -> unit Js.meth
+	method getProperties : < .. > Js.t Js.meth
+	method setProperties : < .. > Js.t -> unit Js.meth
 end
 
 class type t =
